@@ -29,3 +29,6 @@
 - These permissions cover key Huawei Cloud services for CSPM scanning. Adjust the policy if you need to scan additional services or restrict access to specific resources.
 - Ensure the Huawei Cloud region and tenant ID are correctly configured in CloudSploit to align with the scanned resources.
 - Regularly rotate the access keys for security and monitor the `CloudSploitScanner` user’s activity via Huawei Cloud’s **Cloud Trace Service (CTS)**.
+
+- Sample Screenshot when we scan the Huawei cloud :
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/7a709c9c-f17c-4295-bccb-8f8b6f18c31c" />
