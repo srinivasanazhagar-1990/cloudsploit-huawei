@@ -1738,32 +1738,5 @@ module.exports = {
         'securityAgentInstalled'        : require(__dirname + '/plugins/alibaba/securitycenter/securityAgentInstalled.js'),
         'securityNotificationsEnabled'  : require(__dirname + '/plugins/alibaba/securitycenter/securityNotificationsEnabled.js'),
         'vulnerabilityScanEnabled'      : require(__dirname + '/plugins/alibaba/securitycenter/vulnerabilityScanEnabled.js')
-    },
-    huawei: {
-        // IAM and Security
-        //'usersMfaEnabled'                : require(__dirname + '/plugins/huawei/iam/usersMfaEnabled.js'),
-        //'passwordPolicyStrength'       : require(__dirname + '/plugins/huawei/iam/passwordPolicyStrength.js'),
-        //'accessKeyRotation'            : require(__dirname + '/plugins/huawei/iam/accessKeyRotation.js'),
-        //'adminAccessRestricted'        : require(__dirname + '/plugins/huawei/iam/adminAccessRestricted.js'),
-
-        // Compute (ECS - Elastic Cloud Server)
-        'ecsEncryptionEnabled'         : require(__dirname + '/plugins/huawei/ecs/ecsEncryptionEnabled.js'),
-        //'ecsBackupEnabled'             : require(__dirname + '/plugins/huawei/ecs/ecsBackupEnabled.js'),
-        //'ecsSecurityGroups'            : require(__dirname + '/plugins/huawei/ecs/ecsSecurityGroups.js'),
-
-        // Networking (VPC)
-        'vpcFlowLogsEnabled'           : require(__dirname + '/plugins/huawei/vpc/vpcFlowLogsEnabled.js'),
-        'openport'                       : require(__dirname + '/plugins/huawei/openPorts.js'),
-	'vpcSecurityGroups'              : require(__dirname + '/plugins/huawei/vpcSecurityGroups.js'),
-        'vpcStatus'                      : require(__dirname + '/plugins/huawei/vpcStatus.js'),
-
-
-        // Storage (OBS - Object Storage Service)
-        'obsBucketEncryption'          : require(__dirname + '/plugins/huawei/obsEncryption.js'),
-        'obsPublicAccess'              : require(__dirname + '/plugins/huawei/obsPublicAccess.js'),
-
-        // Database Security
-        //'rdsEncryptionEnabled'         : require(__dirname + '/plugins/huawei/rds/rdsEncryptionEnabled.js'),
-        //'rdsPublicAccess'              : require(__dirname + '/plugins/huawei/rds/rdsPublicAccess.js'),
     }
 };

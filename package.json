@@ -41,29 +41,37 @@
   "dependencies": {
     "@alicloud/pop-core": "^1.7.10",
     "@azure/data-tables": "^13.2.2",
+    "@azure/storage-blob": "^12.14.0",
     "@azure/storage-file-share": "^12.14.0",
     "@azure/storage-queue": "^12.13.0",
-    "@azure/storage-blob": "^12.14.0",
+    "@huaweicloud/huaweicloud-sdk-core": "^3.1.144",
+    "@huaweicloud/huaweicloud-sdk-ecs": "^3.1.144",
+    "@huaweicloud/huaweicloud-sdk-evs": "^3.1.144",
+    "@huaweicloud/huaweicloud-sdk-iam": "^3.1.144",
+    "@huaweicloud/huaweicloud-sdk-vpc": "^3.1.144",
     "@octokit/auth-app": "^6.0.3",
     "@octokit/request": "^8.1.6",
     "@octokit/rest": "^20.0.2",
     "ali-oss": "^6.15.2",
     "argparse": "^2.0.0",
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "aws-sdk": "^2.1506.0",
+    "axios": "^1.8.4",
     "azure-storage": "^2.10.3",
     "csv-write-stream": "^2.0.0",
+    "esdk-obs-nodejs": "^3.24.3",
     "fast-safe-stringify": "^2.0.6",
     "google-auth-library": "^8.1.1",
     "minimatch": "^3.0.4",
-    "ms-rest-azure": "^3.0.2",
-    "tty-table": "^4.1.3"
+    "ms-rest-azure": "^2.5.7",
+    "tty-table": "^4.1.3",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "^6.8.0",
-    "mocha": "^6.1.4",
-    "nodemon": "^1.19.4",
-    "nyc": "^14.1.1"
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "nyc": "^17.1.0"
   }
 }
